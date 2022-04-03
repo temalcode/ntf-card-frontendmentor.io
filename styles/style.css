@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'light';
+  src: url(../fonts/Outfit-Light.ttf);
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url(../fonts/Outfit-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'semi-bold';
+  src: url(../fonts/Outfit-SemiBold.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #0d192b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  height: 100vh;
+  font-family: "light";
+}
+
+.card {
+  background-color: #14253d;
+  width: 350px;
+  height: 570px;
+  border-radius: 10px;
+}
+
+.card__days {
+  color: #8bacda;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__price {
+  color: #00fff7;
+}
+
+.card__img {
+  display: block;
+  width: 300px;
+  margin: auto;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.card__text {
+  margin: auto;
+  width: 300px;
+}
+
+.card__h1 {
+  font-family: "semi-bold";
+  margin-bottom: 1rem;
+}
+
+.card__para {
+  color: #8bacda;
+  margin-bottom: 1rem;
+}
+
+.card__status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+}
+
+.card__line {
+  height: 1px;
+  background-color: #2f415b;
+  margin-bottom: 1rem;
+}
+
+.card__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.card__avatar {
+  width: 2rem;
+  border: white solid 1px;
+  border-radius: 50%;
+}
+
+span {
+  color: #8bacda;
+}
+/*# sourceMappingURL=style.css.map */

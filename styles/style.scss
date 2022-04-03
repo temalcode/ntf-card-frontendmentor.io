@@ -1,0 +1,43 @@
+
+@font-face {
+    font-family: 'light';
+    src: url(../fonts/Outfit-Light.ttf);
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'semi-bold';
+    src: url(../fonts/Outfit-SemiBold.ttf);
+}
+
+$regular-font: 'regular';
+$light-font: 'light';
+$semi-bold-font: 'semi-bold';
+
+$card-bg: hsl(216, 50%, 16%);
+$cyan: hsl(178, 100%, 50%);
+$body-text: hsl(215, 51%, 70%);
+$line-color: hsl(215, 32%, 27%);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    font-family: $light-font;
+}
+
+@import '_card';

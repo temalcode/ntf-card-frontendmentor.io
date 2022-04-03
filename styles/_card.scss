@@ -1,0 +1,74 @@
+
+.card{
+    background-color: $card-bg;
+    width: 350px;
+    height: 570px;   
+    border-radius: 10px;
+
+    &__days{
+        color: $body-text;
+        display: flex;
+        align-items: center;
+
+        
+    }
+
+    &__price{
+        color: $cyan;
+    }
+    
+}
+
+.card__img{
+    display: block;
+    width: 300px;
+    margin: auto;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.card__text{
+    margin: auto;
+    width: 300px;
+}
+
+.card__h1{
+    font-family: $semi-bold-font;
+    margin-bottom: 1rem;
+}
+
+.card__para{
+    color: $body-text;
+    margin-bottom: 1rem;
+}
+
+.card__status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+.card__line{
+    height: 1px;
+    background-color: $line-color;
+    margin-bottom: 1rem;
+}
+
+.card__bottom{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card__avatar{
+    width: 2rem;
+    border: white solid 1px;
+    border-radius: 50%;
+}
+
+span{
+    color: $body-text;
+}
